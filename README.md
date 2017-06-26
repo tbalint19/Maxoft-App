@@ -4,6 +4,7 @@ Az projekthez két mappa tartozik.
 
 
 -------Az "APP" nevű mappa
+
 Az "App" nevű mappát csak fejlesztéshez használom - itt készül a böngészőben futó alkalmazás, de ez csak a forráskód.
 A már említett NPM - Webpack kombóval ezekből a fileokból, valamint az összes függőségből készül EGY (jó nagy) file.
 Ez a webpack.config.js-ben meghatározottak alapján a "Server" nevű mappa Scripts mappájába kerül.
@@ -37,6 +38,7 @@ Ez az applikáció képes lesz érkező JSON-ok feldolgozására - például:
  
  
  ------- A "SERVER" nevű mappa
+ 
  Az ebben a mappában lévő kód fut - innen van kiszolgálva a felhasználó böngészőjébe a fentebb említett applikáció, valamint ez szolgálja ki a futó applikációt adatokkal (a fentebb leírt JSON-okhoz hasonló adatokkal - első példa).
  
  Ennek a szerver oldali logikának nem feladata tudni, hogy milyen eszköz (IOS app, Android APP, Java asztali alkalmazás, bármilyen javascript frameworkben megírt web app...) hogyan jeleníti meg az általa küldött adatokat. Ha kap egy requestet (amit adott esetben authentikál) akkor küld egy választ. Ilyen "nyers" VIEW-kat adnak vissza a CONTROLLEREK.
@@ -45,6 +47,7 @@ Ez az applikáció képes lesz érkező JSON-ok feldolgozására - például:
  
  
  ------Összegzés
+ 
  Ennek az egész megközelítésnek az az előnye, hogy minden részlet függetlenül fejleszthető, szépen el van választva egymástól.
  
  Ennek pedig a magja az az MVC elrendezés, ami arra lett kitalálva, hogy ezt a fajta elrendezést kiszolgálja, hogy a az adatbázis (ahol minden fontos adat rendszerezve van) és a megjelenítés (ami a teljesen laikus felhasználó által is átlátható és kezelhető) közé egy réteget húzzon, és az egyik irányból érkező adatokat a másiknak továbbadja, illetve közben ha szükséges elvégezzen bizonyos műveleteket.
