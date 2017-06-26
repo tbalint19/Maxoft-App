@@ -1,0 +1,16 @@
+.add-new-button {
+  margin: 30px 10px;
+  float: right;
+  width: 150px;
+}
+
+.add-new-input {
+  margin: 5px;
+  width: 350px;
+}
+
+.add-new-title {
+  color: blue;
+  text-align: left;
+  margin-bottom: 30px;
+}

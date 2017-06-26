@@ -1,0 +1,24 @@
+@import "./const/navbar/style.css";
+@import "./const/footer/style.css";
+@import "./apps/login/style.css";
+@import "./apps/mainController/style.css";
+@import "./apps/users/style.css";
+@import "./modals/editRole/style.css";
+@import "./modals/filterRole/style.css";
+@import "./modals/editUser/style.css";
+@import "./modals/forgotten/style.css";
+@import "./modals/newUser/style.css";
+
+body {
+  background-color: beige;
+  padding: 0;
+  font-family: 'Montserrat', cursive;
+}
+
+.app {
+  background-color: white;
+  width: 880px;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 70px;
+}

@@ -1,0 +1,25 @@
+.reset-modal {
+  font-family: 'Montserrat', cursive;
+  text-align: center;
+}
+
+.reset-title {
+  text-align: center;
+  margin: 20px;
+  color: blue;
+  margin-bottom: 50px;
+}
+
+.reset-input {
+  text-align: center;
+  margin: 30px;
+}
+
+.reset-input input {
+  width: 350px;
+}
+
+.reset-button {
+  width: 140px;
+  margin: 10px;
+}
